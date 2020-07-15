@@ -1,0 +1,30 @@
+let and const are Block Scope variables.
+
+{
+  let a = 3;
+}
+
+// a cannot be used here.
+
+Ex-1:
+let x = 2;       // Allowed
+var x = 3;       // Not allowed
+
+{
+  let x = 4;   // Allowed
+  var x = 5;   // Not allowed
+}
+
+Ex-2:
+let x = 2;       // Allowed
+
+{
+  let x = 3;   // Allowed
+}
+
+{
+  let x = 4;   // Allowed
+}
+ 
+
+var is the global variables can be accessed anywhere.

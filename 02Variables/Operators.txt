@@ -1,0 +1,6 @@
+% - modulus sign mainly we will used for reminders.
+
+Discount = ((listingprice - sellingprice) / listingprice) * 100
+
+Inorder to round of use Math.round();
+

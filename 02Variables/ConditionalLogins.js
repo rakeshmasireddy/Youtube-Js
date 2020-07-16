@@ -1,4 +1,4 @@
-var email = true;
+var email = false;
 var facebook = false;
 var google = true;
 

@@ -12,7 +12,7 @@ var x = 3;       // Not allowed
 
 {
   let x = 4;   // Allowed
-  var x = 5;   // Not allowed
+  var x = 5;   // Not allowedn 
 }
 
 Ex-2:
@@ -28,3 +28,8 @@ let x = 2;       // Allowed
  
 
 var is the global variables can be accessed anywhere.
+
+In javascript we can add Integer and String.
+
+== : for loosly condition.
+=== : for strictly condition.
